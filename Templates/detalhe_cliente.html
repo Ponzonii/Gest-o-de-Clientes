@@ -1,0 +1,11 @@
+<ul>
+  <li>
+    <i class="bi bi-person-vcard-fill"></i> Identificador: {{ cliente.id }}
+  </li>
+  <li><i class="bi bi-person-square"></i> Nome: {{ cliente.nome }}</li>
+  <li><i class="bi bi-envelope-at-fill"></i> Email: {{ cliente.email }}</li>
+  <li>
+    <i class="bi bi-calendar-event-fill"></i> Data de registro: {{
+    cliente.data_registro.strftime("%d/%m/%Y - %H:%M") }}
+  </li>
+</ul>
